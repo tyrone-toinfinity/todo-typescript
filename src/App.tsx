@@ -47,9 +47,9 @@ function TaskItem(props: {
         {task.description}
       </span>
       <div className="task-buttons">
-        {/* <button onClick={() => editTask(task.id)}>
+        <button onClick={() => editTask(task.id)}>
           <FontAwesomeIcon icon={faEdit} />
-        </button> */}
+        </button>
         <button onClick={() => deleteTask(task.id)}>
           <FontAwesomeIcon icon={faTrash} />
         </button>
